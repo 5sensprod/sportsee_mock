@@ -1,0 +1,10 @@
+.layoutContainer {
+    display: flex;
+    height: calc(100vh - 91px);
+}
+
+@media screen and (max-height: 882px) {
+    .layoutContainer {
+        height: calc(100vh - 60px);
+    }
+}

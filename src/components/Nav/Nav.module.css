@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  padding-right: 68px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  max-width: 994px;
+  min-width: 500px;
+  width: 100%;
+
+}
+
+.nav li {
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+  transition: font-size 0.3s ease-in-out;
+}
+
+@media (max-height: 882px) {
+  .nav li {
+    font-size: 18px;
+  }
+}
